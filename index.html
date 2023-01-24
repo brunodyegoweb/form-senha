@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="estilo/resset.css">
+    <link rel="stylesheet" href="estilo/geral.css">
+
 </head>
 <body>
-    <form action="cadastro.php" method="post"></form>
+    <main>
+        <h1 class="cadastro">Faça seu Cadastro</h1>
+        <div class="div-form">
+            <form action="cadastro.php" method="post">
+                <p>
+                    <label for="inome">Usuário: </label>
+                </p>
+                <p>
+                    <input class="input" type="text" name="nome" id="inome" minlength="5" maxlength="30" required placeholder="Digite o nome do usuário" size="30">
+                </p>
+                <p>
+                    <label for="isenha">Senha: </label>
+                </p>
+                <p>
+                    <input class="input" type="password" name="Senha" id="senha" minlength="8" maxlength="8" required placeholder="Digite sua senha com 8 digitos" size="30">
+                </p>
+                <p><input class="input2" type="submit" value="Enviar">  <input class="input2" type="reset" value="Limpar"></p>
+            </form>
+        </div>
+    </main>
 </body>
 </html>

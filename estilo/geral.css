@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.cadastro {   
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404);
+}
+
+body {
+    background-color: #7ffffd;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.486);
+}
+
+
+.div-form {
+    position: absolute;/*a partir do momento que declaramos absoluto podemos usar top e left*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.input {
+    padding: 5px;
+    border-radius: 10px;    
+}
+
+.input2 {
+    padding: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 550ms;
+}
+
+.input2:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    filter: brightness(1.2); 
+    transform: translateY(-2px);
+}
